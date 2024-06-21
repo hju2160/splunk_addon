@@ -1,0 +1,132 @@
+{
+  "version": "1.0",
+  "date": "2024-06-17T16:05:44.389076984Z",
+  "hashAlgorithm": "SHA-256",
+  "app": {
+    "id": 7045,
+    "version": "1.30.1",
+    "files": [
+      {
+        "path": "README/README.MD",
+        "hash": "53a036e046de28ceff6f84025b592fb75960fed5173017499235c590b8985080"
+      },
+      {
+        "path": "README/README.md",
+        "hash": "53a036e046de28ceff6f84025b592fb75960fed5173017499235c590b8985080"
+      },
+      {
+        "path": "app.manifest",
+        "hash": "7e86ff5cd3750fe57960bdbc86cad5e2bb47945a0d3a4e02b43b8b58fb01182f"
+      },
+      {
+        "path": "default/app.conf",
+        "hash": "3f2edbdb78a4ddf14e0b802e0ac43760d1b05c4fd4058f6d453d6f5991ae8ad2"
+      },
+      {
+        "path": "default/eventtypes.conf",
+        "hash": "f46d9a3e38b2e9daa03c8cc28aed130bd07d86164927767dd6f5213838982d43"
+      },
+      {
+        "path": "default/props.conf",
+        "hash": "7024beb55437a365adb345ec7111d20651dcabd45af60c49b4403f722067638d"
+      },
+      {
+        "path": "default/tags.conf",
+        "hash": "3574dc4a60a02185d7d1517f4193af4fad94560cf8510ee53dc28c65d898a2ff"
+      },
+      {
+        "path": "default/transforms.conf",
+        "hash": "d45d0e4357070dc7fe721566b0404e823ca2414617e6527e0b6bfd685c120b9e"
+      },
+      {
+        "path": "lookups/nix_account_change_severity_id.csv",
+        "hash": "8b2e7691675356f838dfd0f5a1d45cbad67827f643831df0775c8dd8aeaa15be"
+      },
+      {
+        "path": "lookups/nix_account_change_status_id.csv",
+        "hash": "42630290a132b31e5922b334333146545912fd9d86e10e0ceb146caa3b1db9e4"
+      },
+      {
+        "path": "lookups/nix_account_change_type_name.csv",
+        "hash": "73b6d2874a16560067142a1c7132b03b016ee91d473fb4bb1b71e181efe50bd4"
+      },
+      {
+        "path": "lookups/nix_authentication_id_to_protocol.csv",
+        "hash": "56d8ab4c4cae9c875b48753bd05f559a25f039a896ed526d0c1baf7410693a0e"
+      },
+      {
+        "path": "lookups/nix_authentication_logon_type_id_to_type.csv",
+        "hash": "a57a389b817ca5b48880ec60311eba9fbfd55ec02f5de6ea673476bef1e52897"
+      },
+      {
+        "path": "lookups/nix_authentication_severity_id.csv",
+        "hash": "032cb1b251fca72f535869f6a9c2c4b371612aea5ad4e605b9aff75594b094ac"
+      },
+      {
+        "path": "lookups/nix_class_uid_activity_id_details.csv",
+        "hash": "b0c8ecd5a19dfdb28d5d690af284d5dc59a12ae620b5d3f3aca7c5bb010c0d35"
+      },
+      {
+        "path": "lookups/nix_file_activity_file_result_type.csv",
+        "hash": "45b5fb647592e339ccc0ed1a660a750b46ddde6a794207dcd5209c6bc602c43a"
+      },
+      {
+        "path": "lookups/nix_file_activity_id_to_name.csv",
+        "hash": "65447c602e4422425e4197bd00d505584356c292a41c21210810390668113dc2"
+      },
+      {
+        "path": "lookups/nix_ocsf_type_name.csv",
+        "hash": "73b6d2874a16560067142a1c7132b03b016ee91d473fb4bb1b71e181efe50bd4"
+      },
+      {
+        "path": "lookups/nix_security_confidence_id_translate.csv",
+        "hash": "f131bb45116233cbfe8e41857a95e2ad82d22bb152f9d1ba5bf8fb3b97f40f97"
+      },
+      {
+        "path": "lookups/nix_security_finding_analytic_type_id.csv",
+        "hash": "6189c2340a25e28693bddb601bcb66c3009767d1dd5077ba61e90593714bac3e"
+      },
+      {
+        "path": "lookups/nix_security_impact.csv",
+        "hash": "2d72aec222f7a074e13fa2f684171e3dbb8f304a54860e71c4cd5832bd3da289"
+      },
+      {
+        "path": "lookups/nix_security_risk_level.csv",
+        "hash": "886c65df4772dcc24c5c5531ceecdb73c1230e338ca68963b565075ec4e37fd1"
+      },
+      {
+        "path": "metadata/default.meta",
+        "hash": "ae4876272180a1352632cef60928f2cd68a63c65267e6a04dd79dedbd451adfb"
+      }
+    ]
+  },
+  "products": [
+    {
+      "platform": "splunk",
+      "product": "enterprise",
+      "versions": [
+        "7.0",
+        "7.1",
+        "7.2",
+        "7.3",
+        "8.0",
+        "8.1",
+        "8.2",
+        "9.0",
+        "9.1",
+        "9.2"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "operatingSystems": [
+        "windows",
+        "linux",
+        "macos",
+        "freebsd",
+        "solaris",
+        "aix"
+      ]
+    }
+  ]
+}
